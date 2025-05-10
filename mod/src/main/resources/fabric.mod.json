@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "adaptive-audio-mc",
+	"version": "${version}",
+	"name": "Adaptive Audio",
+	"description": "Server-side triggers of client audio transitions",
+	"authors": [
+		"karpandsmeargle"
+	],
+	"contact": {
+		"homepage": "karpandsmeargle@gmail.com",
+		"sources": "https://github.com/karpandsmeargle/adaptive-audio-mc"
+	},
+	"license": "BSD-3-Clause",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.karpandsmeargle.adaptive.AdaptiveAudioMod"
+		],
+		"client": [
+			"com.karpandsmeargle.adaptive.AdaptiveAudioClientMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
